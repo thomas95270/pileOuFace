@@ -1,0 +1,67 @@
+remonter dans le répertoire :
+cd ..
+(attention, on est apparenté linux => cd ' ' ..)
+
+entrer dans un dossier
+cd git_bash_console/
+
+creer un fichier :
+touch index.html
+
+creer un repertoire
+mkdir img (mkdir =make direction)
+
+lister les donénes dans le repertoires :
+ls (liste des données dans le répertoire)
+ll (liste détaillée des données)
+
+
+configuration nom:
+git config --global user.name "thomas"
+
+--global => positionne ensemble de la session de l'utilisateur,
+tous les repository comporteront le nom indiqué
+--local => positionne sur le dossier du git actif
+--system : tous les utilisateurs du systeme (toutes les sessions utilisateur de l'ordinateur)
+
+git config --global --liste
+indique les donénes de sessions
+
+configuration email:
+git config --global user.email "thomas.vmaagdenberg@gmail.com"
+
+creer un alias :
+git config --global alias.li list
+
+effacer un alias :
+git config --global --unset alias.li
+
+aide :
+git help (+commande git bash)
+
+pour versionner, on se place dans le dossier à versionner :
+git add .  (=> sélection tous les fichiers mofifiés dans la stage area)
+git commit -m "mon premier commit"
+
+pour voir les différentes versions :
+- soit aller dans le plug index
+- soit, ds le terminal, faire : git log 
+    -> "q" pour sortir de git log
+
+pour supprimer un fichier :
+git rm -f "nom fichier"
+
+pour deplacer un fichier :
+git mv -f "nom fichier"
+
+pour cloner un projet a partir de git hub :
+- prendre le lien,
+- aller ds le terminal de vs commande
+- git clone + url
+=> le clonage permet de recupérer tout le projet
+
+pour creer une nouvelle branche :
+git branch + 'nom de la branch' 
+
+pour passer de l'une a l'autre :
+git switch + ('nom branche')
