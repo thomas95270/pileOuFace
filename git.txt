@@ -65,3 +65,15 @@ git branch + 'nom de la branch'
 
 pour passer de l'une a l'autre :
 git switch + ('nom branche')
+
+pour fusionner 2 branches :
+- se placer ds la branche qu'on veut garder
+- git merge + "nom de la branche à fusionner"
+
+Si les fichiers à fusionner ont des différences, git avertit du conflit.
+Git demande de faire un "pull" pour comparer les différences
+Il faut contacter le developpeur qui a fait des changements pour savoir ce qu'il faut garder.
+Git propose :
+- current change
+- incoming
+- both
