@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+/**************Background interface*****************/
+main {
+	margin: 0 auto;
+	width: 66%;
+	height: 100vh;
+	padding: 5vh;
+	background-color: rgb(116, 2, 2);
+}
+
+/*************Mise en forme du contenu*************/
+img {
+	border-radius: 50%;
+	margin: 2vw;
+	min-height: 10rem;
+	height: 15vw;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 5rem;
+	font-weight: 600;
+	color: lightgrey;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result,
+p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 600;
+	color: lightgrey;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*********BOUTONS PIECES********/
+#piece {
+	display: flex;
+	justify-content: center;
+}
+
+#piece img:hover {
+	-webkit-box-shadow: 0px 0px 45px 10px rgba(75, 0, 0, 1);
+	box-shadow: 0px 0px 45px 10px rgba(75, 0, 0, 1);
+	cursor: pointer;
+}
+
+/***************BOUTON RELANCER**************/
+.relancer {
+	min-width: 4rem;
+	max-width: 10rem;
+	margin: 5vh;
+	padding: 5px;
+	font-size: 3vh;
+	font-weight: 600;
+	background-color: lightgray;
+	border-radius: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	cursor: pointer;
+}
+
+.relancer:hover {
+	-webkit-box-shadow: 0px 0px 22px 5px rgba(75, 0, 0, 1);
+	box-shadow: 0px 0px 22px 5px rgba(75, 0, 0, 1);
+}
